@@ -54,3 +54,29 @@ Compile the program and run the executable:
 g++ -std=c++14 -o queue queue.cpp
 ./queue
 ```
+
+# Doubly Linked List Implementation in C++
+
+This contains a C++ implementation of a Doubly Linked List. A Doubly Linked List is a data structure that consists of a sequence of elements, where each element points to the next and previous elements in the sequence.
+
+## Features
+
+- Appending elements to the end of the list.
+- Deleting the last element from the list.
+- Prepending elements to the beginning of the list.
+- Deleting the first element from the list.
+- Inserting elements at a specific index in the list.
+- Deleting an element at a specific index from the list.
+- Setting the value of an element at a specific index.
+- Printing the list elements in forward order.
+- Getting the head and tail elements.
+- Getting the length of the list.
+
+## Usage
+
+Compile the program and run the executable:
+
+```bash
+g++ -std=c++14 -o dll doubly_linked.cpp 
+./dll
+```
