@@ -32,3 +32,25 @@ This is a simple C++ implementation of a Stack data structure using a linked lis
 g++ -std=c++14 -o stack stack.cpp
 ./stack
 ```
+
+# C++ Queue Implementation
+
+## Description
+
+This is a simple C++ implementation of a Queue data structure using a linked list. The Queue class allows you to enqueue elements to the end of the queue, dequeue elements from the front of the queue, print the elements currently in the queue, and get the length of the queue.
+
+## Features
+
+- Enqueue elements to the end of the queue.
+- Dequeue elements from the front of the queue.
+- Print the elements currently in the queue.
+- Get the length of the queue.
+
+## Usage
+
+Compile the program and run the executable:
+
+```bash
+g++ -std=c++14 -o queue queue.cpp
+./queue
+```
