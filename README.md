@@ -80,3 +80,25 @@ Compile the program and run the executable:
 g++ -std=c++14 -o dll doubly_linked.cpp 
 ./dll
 ```
+
+# HashTable
+
+This contains a C++ implementation of a HashTable data structure. The HashTable is designed to store key-value pairs, and it uses a simple hash function to map keys to specific indices in an array.
+
+## Features
+
+- Insert key-value pairs into the HashTable.
+- Retrieve values associated with specific keys.
+- Print all the key-value pairs in the HashTable.
+- Get a list of all the keys stored in the HashTable.
+
+## Usage
+
+Compile the program and run the executable:
+
+```bash
+g++ -std=c++14 -o ht hash_map.cpp 
+./ht
+```
+
+
